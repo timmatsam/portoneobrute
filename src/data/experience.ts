@@ -6,28 +6,20 @@ const PAST_ROLES: {
   endDate: string
 }[] = [
   {
-    company: 'ACME Solutions',
-    role: 'CEO',
+    company: 'Octave Health',
+    role: 'Software Engineer',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
-    startDate: 'March 2023',
+      'Striving to provide people with outcomes based mental health therapy.',
+    startDate: 'Jan 2024',
     endDate: 'Now',
   },
   {
-    company: 'Google',
+    company: 'TriNetX',
     role: 'Software Engineer',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
-    startDate: 'April 2021',
-    endDate: 'March 2023',
-  },
-  {
-    company: 'Vercel',
-    role: 'Developer Advocate',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel hic aspernatur molestiae exercitationem rerum reiciendis mollitia magnam harum ipsum?',
-    startDate: 'April 2021',
-    endDate: 'June 2018',
+      'Facilitating expedited clinical trials for rapid drug development through real world data from 20+ countries.',
+    startDate: 'Feb 2020',
+    endDate: 'Dec 2023',
   },
 ]
 

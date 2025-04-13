@@ -3,20 +3,33 @@ import {
   SiAstro,
   SiBootstrap,
   SiCss3,
+  SiCypress,
   SiDocker,
+  SiExpress,
+  SiFirebase,
+  SiGraphql,
   SiHtml5,
   SiJavascript,
+  SiJest,
   SiMongodb,
   SiMysql,
   SiNextdotjs,
   SiNginx,
   SiNodedotjs,
   SiPostgresql,
+  SiRadixui,
   SiReact,
   SiRedis,
+  SiRedux,
   SiRubyonrails,
   SiSass,
+  SiShadcnui,
+  SiStorybook,
+  SiStripe,
   SiTailwindcss,
+  SiTestinglibrary,
+  SiTrpc,
+  SiTypescript,
 } from '@icons-pack/react-simple-icons'
 
 const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
@@ -24,18 +37,31 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
     {
       field: 'Frontend',
       skills: [
+        { skill: 'typescript', icon: SiTypescript },
+        { skill: 'react', icon: SiReact },
+        { skill: 'nextjs', icon: SiNextdotjs },
         { skill: 'html', icon: SiHtml5 },
         { skill: 'css', icon: SiCss3 },
-        { skill: 'javascript', icon: SiJavascript },
-        { skill: 'react', icon: SiReact },
-        { skill: 'sass', icon: SiSass },
         { skill: 'tailwind', icon: SiTailwindcss },
-        { skill: 'nextjs', icon: SiNextdotjs },
-        { skill: 'astro', icon: SiAstro },
-        {
-          skill: 'bootstrap',
-          icon: SiBootstrap,
-        },
+        { skill: 'graphql', icon: SiGraphql },
+        { skill: 'stripe', icon: SiStripe },
+      ],
+    },
+    {
+      field: 'Design Systems',
+      skills: [
+        { skill: 'shadcn', icon: SiShadcnui },
+        { skill: 'bootstrap', icon: SiBootstrap },
+        { skill: 'radix', icon: SiRadixui },
+      ],
+    },
+    {
+      field: 'Testing',
+      skills: [
+        { skill: 'storybook', icon: SiStorybook },
+        { skill: 'cypress', icon: SiCypress },
+        { skill: 'jest', icon: SiJest },
+        { skill: 'react-testing-library', icon: SiTestinglibrary },
       ],
     },
     {
@@ -46,33 +72,19 @@ const SKILLS: { field: string; skills: { skill: string; icon: IconType }[] }[] =
           icon: SiNodedotjs,
         },
         {
-          skill: 'ruby on rails',
-          icon: SiRubyonrails,
-        },
-        {
-          skill: 'redis',
-          icon: SiRedis,
-        },
-        {
           skill: 'postgresql',
           icon: SiPostgresql,
         },
         {
-          skill: 'mongodb',
-          icon: SiMongodb,
+          skill: 'firebase',
+          icon: SiFirebase,
         },
         {
           skill: 'mysql',
           icon: SiMysql,
         },
-        {
-          skill: 'nginx',
-          icon: SiNginx,
-        },
-        {
-          skill: 'docker',
-          icon: SiDocker,
-        },
+        { skill: 'trpc', icon: SiTrpc },
+        { skill: 'express', icon: SiExpress },
       ],
     },
   ]

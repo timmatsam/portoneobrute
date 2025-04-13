@@ -6,32 +6,19 @@ const PROJECTS: {
   liveLink: string
 }[] = [
   {
-    name: 'Project 1',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
+    name: 'How Bad Is My Driving?',
+    description: 'Bringing awareness to reckless driving in NYC',
+    liveLink: 'https://howbadismydriving.vercel.app',
     previewImage: '/project1.png',
-    repoUrl: 'https://github.com',
+    repoUrl: 'https://github.com/timmatsam/hows-my-driving-2.0',
   },
   {
-    name: 'Project 2',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
+    name: 'Pelvic Health Clubhouse',
+    description:
+      'B2B SaaS that helps osteopathic practitioners provide better care to their patients',
+    liveLink: 'https://pelvichealthclubhouse.com',
     previewImage: '/project2.png',
-    repoUrl: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
-    previewImage: '/project3.png',
-    repoUrl: 'https://github.com',
-  },
-  {
-    name: 'Project 4',
-    description: 'Lorem ipsum dolor sit amet',
-    liveLink: 'https://google.com',
-    previewImage: '/project4.png',
-    repoUrl: 'https://github.com',
+    repoUrl: 'https://github.com/timmatsam',
   },
 ]
 

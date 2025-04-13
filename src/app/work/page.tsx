@@ -15,7 +15,7 @@ export default function Work() {
             >
               <AspectRatio
                 className="border-border shadow-shadow rounded-base -bottom-[2px]! border-2"
-                ratio={71 / 26}
+                ratio={2880 / 1730}
               >
                 <img
                   className="rounded-base w-full"
